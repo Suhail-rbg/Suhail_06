@@ -208,7 +208,7 @@ def start_attack_reply(message, target, port, time):
     user_info = message.from_user
     username = user_info.username if user_info.username else user_info.first_name
     
-    response = f"{username}, 𝐀𝐓𝐓𝐀𝐂𝐊 𝐒𝐓𝐀𝐑𝐓𝐄𝐃.\n\n𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n𝐏𝐨𝐫𝐭: {port}\n𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n𝐌𝐞𝐭𝐡𝐨𝐝: BGMI\nBy Indian Watchdogs @Indian_Hackers_Team"
+    response = f"{username}, 𝐀𝐓𝐓𝐀𝐂𝐊 𝐒𝐓𝐀𝐑𝐓𝐄𝐃.\n\n𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n𝐏𝐨𝐫𝐭: {port}\n𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n𝐌𝐞𝐭𝐡𝐨𝐝: BGMI\nBy Indian Watchdogs @Suhail_khan_08"
     bot.reply_to(message, response)
 
 # Dictionary to store the last time each user ran the /bgmi command
@@ -246,9 +246,9 @@ def handle_bgmi(message):
                 subprocess.run(full_command, shell=True)
                 response = f"BGMI Attack Finished. Target: {target} Port: {port} Time: {time}"
         else:
-            response = "Usage :- /bgmi <target> <port> <time>\nBy Indian Watchdogs @Indian_Hackers_Team"  # Updated command syntax
+            response = "Usage :- /bgmi <target> <port> <time>\nBy Indian Watchdogs @Suhail_khan_08"  # Updated command syntax
     else:
-        response = "You Are Not Authorized To Use This Command.\nBy Indian Watchdogs @Indian_Hackers_Team"
+        response = "You Are Not Authorized To Use This Command.\nBy Indian Watchdogs @Suhail_khan_08"
 
     bot.reply_to(message, response)
 
@@ -285,7 +285,7 @@ def show_help(message):
 
  To See Admin Commands:
  /admincmd : Shows All Admin Commands.
- By Indian Watchdogs @Indian_Hackers_Team
+ By Indian Watchdogs @Suhail_khan_08
 '''
     for handler in bot.message_handlers:
         if hasattr(handler, 'commands'):
@@ -321,15 +321,15 @@ def welcome_plan(message):
     response = f'''{user_name}, Brother Only 1 Plan Is Powerfull Then Any Other Ddos !!:
 
 Vip :
--> Attack Time : 200 (S)
-> After Attack Limit : 2 Min
+-> Attack Time : 500 (S)
+> After Attack Limit : 5 Min
 -> Concurrents Attack : 300
 
 Pr-ice List:
 Day-->150 Rs
 Week-->900 Rs
 Month-->1600 Rs
-By Indian Watchdogs @Indian_Hackers_Team
+By Indian Watchdogs @Suhail_khan_08
 '''
     bot.reply_to(message, response)
 
